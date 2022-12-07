@@ -57,6 +57,7 @@ form {
 
 fieldset {
     border: none;
+    padding: 0;
 }
 
 fieldset legend{
@@ -72,5 +73,6 @@ fieldset legend{
 }
 
 .input-wrapper {
-    
+  display: flex;
+  flex-direction: column;  
 }
